@@ -1,0 +1,46 @@
+Telefones
+Laptops
+Calculadoras
+Relógio SmartWatch
+Micro-ondas
+Controles de sensor
+Roteador Wi-fi
+Máquina de lavar
+Televisão
+Rádio
+Máquina digital
+
+1) Principais marcos históricos relacionado à informação
+R: ENIAC: primeiro computador do mundo. ENIAC, sigla para Electronic Numerical Integrator Analyzer and Computer, foi o primeiro computador eletrônico de grande escala, 
+desenvolvido pelos cientistas norte-americanos John Eckert e John Mauchly em 1946, durante a Segunda Guerra Mundial, e foram gastos 500 mil doláres para sua construção.
+Primeiros computadores pessoais: Na década de 70, Steve Jobs foi o precursor dos primeiros computadores pessoais do mundo.
+Microsoft: No final dos anos 70, Bill Gates fundou a Microsoft, que também seguiu no desenvolvimento de computadores pessoais.
+A Internet: A primeira rede mundial de computadores foi a World Wide Web, criada em 1992 pelo cientista Tim Berners-Lee. As suas siglas WWW foram utilizadas anos depois para a identificação do navegador da internet.
+Redes sociais: A chegada das redes sociais revolucionaram o modo como as pessoas se relacionam e se comunicam. O ano de 2004 é o marco da popularidade das redes sociais como Orkut, Google, Facebook, Youtube e Myspace.
+A criação de Mark Zuckerberg, o Facebook, assumiu a liderança em nível global e hoje conta com mais de 2,94 bilhões de usuários.
+Inteligência Artificial: O termo "inteligência artificial" foi criado em 1956, mas foi popularizado apenas nos dias de hoje, graças ao crescente volume de dados disponíveis, algoritmos e armazenamentos computacionais.
+Automação industrial: A partir da implantação do Lean Manufacturing, a automação industrial se tornou presente em diversos processos nos chãos de fábrica, principalmente nas linhas de produção com máquinas autônomas.
+
+
+2) Como a segurança da informação evoluiu ao longo do tempo
+R: As primeiras teorias de programas de computador marcam o começo da cibersegurança. Ainda que seja complicado especificar com exatidão em qual momento a humanidade começou a se esforçar para preservar informações,
+ os relatos sobre proteção de dados existem há muitos séculos. Todos os dias precisamos cada vez mais nos proteger de vírus e hackers para que não possamos perder nossas informações pessoais e privadas.
+
+
+3) Quais os principais desafios enfrentados em cada período histórico?
+R: Os desafios de segurança na internet têm evoluído ao longo do tempo. No início, a principal preocupação era a proteção de dados pessoais e financeiros, como senhas e informações de cartão de crédito.
+Com o avanço da tecnologia, surgiram novos desafios, como ataques cibernéticos mais sofisticados, roubo de identidade, disseminação de fake news e a segurança de dispositivos conectados à internet (Internet of Things).
+Cada período histórico trouxe novas ameaças e exigiu medidas de segurança mais avançadas para proteger os usuários.
+
+
+4) Escreva pontos positivos e pontos negativos sobre IA (Inteligência Artificial).
+R: Pontos positivos:
+Automatização de tarefas: A IA pode automatizar processos repetitivos e rotineiros, liberando tempo para que as pessoas se concentrem em tarefas mais complexas e criativas.
+Eficiência: A IA pode aumentar a eficiência em diversos setores, como saúde, transporte, manufatura e atendimento ao cliente.
+Análise de dados: A IA é capaz de processar grandes volumes de dados e identificar padrões que podem levar a descobertas significativas em diversas áreas, como medicina e ciência.
+Assistência pessoal: Assistente virtuais baseados em IA, como Siri e Google Assistant, podem ajudar as pessoas em suas tarefas diárias.
+ Pontos negativos:
+Viés algorítmico: Algoritmos de IA podem refletir preconceitos existentes na sociedade, levando a decisões discriminatórias.
+Substituição de empregos: A automação impulsionada pela IA pode levar à perda de empregos em certos setores.
+Privacidade: O uso generalizado da IA levanta preocupações sobre a privacidade dos dados pessoais e a vigilância em massa.
+Dependência excessiva: A dependência excessiva da IA pode levar à perda de habilidades humanas essenciais.

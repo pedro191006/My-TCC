@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quer andar de caminhão comigo?</title>
+    <style>
+        body {
+            background-color: #3b3b3b;
+            margin: 80px;
+        }
+
+        .painel {
+            background-color: white;
+            padding: 50px;
+            margin: auto;
+            width: 1000px;
+            border-radius: 50px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .caminhao {
+            width: 500px;
+        }
+
+        #sim {
+            background-color: blueviolet;
+            border: 2px solid black;
+            border-radius: 50px;
+            height: 40px;
+            width: 100px;
+            color: white;
+            margin-right: 150px;
+        }
+
+        #nao {
+            position: absolute;
+            background-color: blueviolet;
+            border: 2px solid black;
+            border-radius: 50px;
+            height: 40px;
+            width: 100px;
+            color: white;
+            margin-left: -110px;
+        }
+    </style>
+</head>
+<body>
+    <div class="painel">
+        <h1>Convite especial</h1>
+        <img class="caminhao" src="https://media.tenor.com/dkojZSgkoloAAAAd/scania-top-laranja.gif" alt="">
+        <h2>Quer andar de caminhão comigo? 😍</h2>
+        <a target="_blank" href="https://www.youtube.com/watch?v=jOQ01gufHck"><Button id="sim">Sim 😍</Button></a>
+        <button onclick="fuja()" id="nao">Não 😔</button>
+    </div>
+    <script>
+        function fuja () {
+            var botaoNao = document.getElementById ("nao")
+
+            var larguraJanela = window.innerWidth
+            var alturaJanela = window.innerHeight 
+
+            var maxX = larguraJanela - botaoNao.offsetWidth
+            var maxY = alturaJanela - botaoNao.offsetHeight
+
+            var aleatorioX = Math.floor(Math.random() * maxX)
+            var aleatorioY = Math.floor(Math.random() * maxY)
+
+            botaoNao.style.left = aleatorioX + "px"
+            botaoNao.style.top = aleatorioY + "px"
+        }
+    </script>
+
+</body>
+</html>

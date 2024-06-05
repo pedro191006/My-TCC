@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelagem de Dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a class="topo" href="index.html">Inicio</a>
+            <a class="topo" href="">Professor</a>
+            <a class="topo" href="">Membros</a>
+        </nav>
+    </header>
+
+    <h1 class="model">Modelagem de Dados</h1> <!--Tema 2 - Modelagem-->
+    <p class="subtitulo">2.1. Conceitos de modelagem</p>
+    <p class="texto">A Modelagem de dados é o processo de diagramação do fluxo de dados. 
+        Representa o processo de criação do esquema de um sistema de informação, definindo os sistemas de coleta
+         e gerenciamento de informações de uma empresa.
+        A modelagem de dados descreve quais dados a empresa coleta, a relação entre os diferentes conjuntos de dados 
+        e encontrar os melhores métodos e tecnologias que serão usados para armazenar e analisar esses dados.
+        Com a modelagem de dados podemos identificar e reduzir erros no desenvolvimento de softwares, melhorar a 
+        velocidade e a eficiência da concepção, criar consistência na documentação de dados e na concepção do sistema em toda a organização etc.</p> <!-- TEXTO DO TEMA 2-->
+    <p class="subtitulo">2.2. Modelagem conceitual, lógica e física</p>
+    <p class="texto">- Os modelos de dados conceituais são uma representação diagramática simples que não segue as regras 
+        formais de modelagem de dados.
+        Os analistas de negócios normalmente criam esse modelo conceitual. ele ajuda os funcionários da parte técnica e não 
+        técnica a compartilhar uma visão comum e concordar com a finalidade, o escopo e o design de seus projetos de dados.
+        Esses modelos oferecem uma visão geral dos dados. Eles mostram quais dados o sistema contém, os atributos de dados e 
+        condições ou restrições nos dados, quais regras de negócios os dados estão relacionados, como os dados estão mais organizados, os requisitos de segurança e a integridade dos dados
+        - Os modelos de dados lógicos mapeiam as classes de dados conceituais para estruturas de dados técnicas. 
+        Os responsáveis para criar esse modelo são os arquitetos e analistas de dados, eles seguem um dos vários sistemas 
+        formais da modelagem de dados para ser criado.
+             Esses modelos fornecem mais detalhes sobre os conceitos de dados e as relações de dados complexas que foram 
+             identificados no modelo de dados conceitual, como os tipos de dados dos vários atributos (por exemplo, string ou número), as relações entre as entidades de dados, os atributos primários ou os campos-chave nos dados. 
+        Porém, esses modelos são úteis para projetar bancos de dados grandes, chamados de data warehouses, e para projetar 
+        sistemas de relatórios automáticos.
+        
+        - Os modelos de dados físicos mapeiam os modelos de dados lógicos para uma tecnologia de DBMS específica e 
+        utilizam a terminologia do software. 
+        Os engenheiros de dados criam o modelo físico antes da implementação final do projeto, esse modelo fornece 
+        detalhes sobre os tipos de campos de dados, as relações de dados, detalhes adicionais, como ajuste de performance. 
+        Eles também seguem técnicas formais de modelagem de dados para garantir que tenham coberto todos os aspectos do projeto. <!-- TEXTO DO TEMA 2-->
+        </p>
+    <p class="subtitulo">2.3. Entidades, atributos e relacionamentos</p>
+    <p class="texto">As entidades representam um objeto que possuem uma existência independente, como: pessoas, empresa, carro, casa, entre outras coisas.
+        Existem três tipos de entidades: As entidades fortes, fracas e as associativas.
+        
+        - As entidades fortes são entidades que não dependem de outras entidades para existirem.
+        - As entidades fracas precisam de outras entidades para existir, ou seja, elas não possuem existência 
+        própria ou não possuem atributos próprios para identificação.
+        - As entidades associativas que são utilizadas quando existe a necessidade de associar uma entidade a um relacionamento
+        Além das entidades, existem os atributos que são as características das entidades.
+        Além das entidades, existem os atributos que são as características das entidades. Um exemplo de atributo é o da 
+        entidade pessoa que pode ter como atributo o nome, data de nascimento, idade, endereço. Assim como as entidades, 
+        também existem outros tipos de atributos, sendo eles: os atributos simples, atributos compostos, atributos multivalorados, 
+        atributos derivados e atributos chave.
+        
+        - Os atributos simples são atributos indivisíveis, ou seja, são atributos atômicos, um exemplo seria o atributo CPF, 
+        ele não pode ser dividido em partes menores para formar outros atributos, ele é indivisível.
+        
+        - Os atributos Compostos são atributos que podem ser divididos em partes menores, que representam outros atributos, 
+        como o atributo endereço, ele pode ser subdividido em atributos menores, como, por exemplo, cidade, estado, rua, CEP.
+        
+        - Os atributos multivalorados podem ter um ou vários valores associados a ele, como, por exemplo, o atributo 
+        telefone de um cliente, ele pode ter um ou vários telefones.
+        
+        - Os atributos derivados dependem de outro atributo para existir, como, por exemplo, o atributo idade e o 
+        atributo data de nascimento, para descobrimos a idade de uma pessoa precisamos da sua data de nascimento, então, 
+        consideramos o atributo idade como derivado do atributo data de nascimento.
+        
+        - Os atributos chave é utilizado para identificar de forma única uma entidade, ou seja, os valores associados a esse 
+        atributo são distintos dentre o conjunto de entidades. Como exemplo, podemos utilizar o CPF de uma pessoa, ele é único e 
+        pode ser utilizado como atributo chave, já que cada pessoa recebe um número de CPF distinto.</p> <!-- TEXTO DO TEMA 2-->
+
+    <a class="link__pagina__modelagem" href="tema3.html">Sistemas de Gerenciamento de Bancos de Dados (SGBDs)</a>
+    <a class="link__pagina__modelagem" href="tema1.html">Voltar</a>
+
+</body>
+</html>

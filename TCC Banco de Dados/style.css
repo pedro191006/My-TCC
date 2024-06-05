@@ -1,0 +1,199 @@
+body {
+    display: center;
+    margin: 25px;
+    background: linear-gradient(90deg, #ffffff4a , #5b339338, #ffffff4a);
+}
+
+a {
+    align-items: center;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.topo:hover {
+    transform: scale(1.05);
+    transition: 200ms linear;
+}
+
+.botaobanco {
+    color: #5b3393;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 1% 40%;
+    margin-bottom: 4%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    font-size: 13px;
+}
+
+.botaobanco:hover {
+    background-color: #5b3393;
+    box-shadow: 0px 15px 20px rgba(153, 154, 153, 0.4);
+    color: #fff;
+    transform: scale(1.05);
+    transition: 200ms linear;
+  }
+
+  .botaobanco:active {
+    transform: translateY(-1px);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.infos {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 6%; 
+    text-decoration: none;
+}
+
+.texto {
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
+    margin: 5%;
+    line-height: 130%;
+}
+
+.subtitulo {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.2%;
+}
+
+.intro {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.model {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.gerenc {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.city {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ano {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+
+.image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ano, .city, .gerenc, .model, .intro, .subtitulo, .infos {
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} 
+
+.rodape {
+    display: flex;
+    text-align: end;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 0%;
+}
+
+
+.link__pagina__modelagem{
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 1% 40%;
+    text-align: center;
+  }
+  
+.link__pagina__modelagem:hover {
+    background-color: #5b3393;
+    box-shadow: 0px 15px 20px rgba(153, 154, 153, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+.link__pagina__modelagem:active {
+    transform: translateY(-1px);
+  }
+
+header {
+    display: flex;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.753);
+    background-color: #5b339373;
+    justify-content: space-between;
+    border-bottom: 10px black;
+    padding: 12px 20px;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');

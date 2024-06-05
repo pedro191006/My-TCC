@@ -1,0 +1,19 @@
+h1 {
+    color: crimson;
+    font-size: 40px;
+}
+
+p {
+    color: mediumvioletred;
+    font-size: 40px;
+    width: 700px;
+}
+
+body {
+    background-color: black;
+}
+
+.Mapa {
+    color: white;
+    font-size: 30px;
+}

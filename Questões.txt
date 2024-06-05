@@ -1,0 +1,14 @@
+1) O que é política de segurança?
+R: Uma política de segurança da informação ou política de segurança das informações e comunicações tem por objetivo possibilitar o gerenciamento da
+segurança de informação em uma organização, estabelecendo regras e padrões para proteção da informação.
+
+
+2) O que é Firewall? Pra que serve?
+R: Em informática, um firewall, raramente traduzido como corta-fogo ou corta-fogos, é um dispositivo de uma rede de computadores,
+na forma de um programa ou de equipamento físico, que tem por objetivo aplicar uma política de segurança a um determinado ponto da rede, geralmente associados a redes TCP/IP.
+Um firewall é um dispositivo de segurança da rede que monitora o tráfego de rede de entrada e saída e decide permitir ou bloquear tráfegos específicos de acordo com um conjunto
+definido de regras de segurança. Os firewalls têm sido a linha de frente da defesa na segurança de rede há mais de 25 anos.
+
+
+3) Quais os 4 (quatro) principais mecanismos de segurança?
+R: Prevenção, mitigação, auditoria e recuperação.
